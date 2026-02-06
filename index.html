@@ -53,7 +53,7 @@
       div.appendChild(document.createTextNode("T J MORRIS LIMITED"));
 
       const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-      JsBarcode(svg, number.toString(), {
+      JsBarcode(svg, "CD" + number.toString(), {
         format: "CODE128",
         displayValue: false
       });
@@ -79,4 +79,5 @@
 </script>
 </body>
 </html>
+
 
